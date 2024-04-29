@@ -119,7 +119,6 @@ config_after_install() {
     local passwordTemp=$(head -c 6 /dev/urandom | base64)
     /usr/local/x-ui/x-ui setting -username "baran" -password "baran"
     echo -e "Done! @PHoseiin bash"
-    fi
     /usr/local/x-ui/x-ui migrate
 }
 
